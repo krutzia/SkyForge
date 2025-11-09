@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# 🌦️ SkyForge — Live Weather App
 
-## Project info
+A sleek and modern weather application built with **React + TypeScript + Tailwind CSS**, powered by the **OpenWeatherMap API**.  
+Easily search for any city and get real-time weather updates with a smooth, elegant UI.
 
-**URL**: https://lovable.dev/projects/07d2bcdb-6a2e-4965-b1cc-c06c8764e206
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🔍 Search any city worldwide  
+- 🌡️ View live temperature, humidity, and conditions  
+- 📍 Real-time weather fetched from OpenWeatherMap API  
+- 🎨 Clean and responsive UI with Tailwind CSS  
+- ⚡ Fast performance using React + Vite  
+- 🔔 Toast notifications for success/error messages  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07d2bcdb-6a2e-4965-b1cc-c06c8764e206) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React** (with Vite)  
+- **TypeScript**  
+- **Tailwind CSS**  
+- **Lucide Icons**  
+- **OpenWeatherMap API**  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Setup Instructions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Follow these steps to run the project locally:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### 1. Clone the Repository
+```bash
+git clone https://github.com/krutzia/SkyForge.git
+cd SkyForge
 ```
 
-**Edit a file directly in GitHub**
+### 2. Install Dependencies
+```bash
+npm install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 3. Create a .env File
+Create a `.env` file in the root directory and add your OpenWeather API key:
+```env
+VITE_WEATHER_API_KEY=your_openweather_api_key_here
+```
 
-**Use GitHub Codespaces**
+### 4. Run the Development Server
+```bash
+npm run dev
+```
+Then open your browser and go to:
+```
+http://localhost:5173/
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🌍 Get Your OpenWeather API Key
 
-This project is built with:
+1. Visit [OpenWeatherMap API](https://openweathermap.org/api)  
+2. Create a free account and generate an API key  
+3. Copy your key and paste it into your `.env` file
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📸 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/07d2bcdb-6a2e-4965-b1cc-c06c8764e206) and click on Share -> Publish.
+| Home Page | Weather Result |
+|------------|----------------|
+| ![Home](https://github.com/user-attachments/assets/06818c6b-053a-4ee4-bbcd-4b0367f29c7d) | ![Result](https://github.com/user-attachments/assets/eb1b57e8-819c-42a7-9bd0-ce453dcc2624) |
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🧠 Future Improvements
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- 🌐 Auto-detect user location  
+- 🕒 5-day weather forecast  
+- ☁️ Dynamic weather backgrounds  
+- 💬 Multi-language support  
+
+---
+
+## 🚀 Live Demo
+You can view the **live demo** here 
+[🌦️ View Live Demo](https://krutzia.github.io/SkyForge/)
+
+
+## 💖 Created By
+
+**Kashish**  
+✨ Created with ❤️ by [Krutzia](https://github.com/krutzia)
+
+---
+
+## 🪄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
