@@ -9,17 +9,17 @@ const Index = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
 
-  const API_KEY = "YOUR_API_KEY_HERE"; // Replace with your OpenWeatherMap API key
+  const API_KEY = "ef06623dd23cbf1ecfdb6994c91f0b0f"; // Replace with your OpenWeatherMap API key
 
   const fetchWeather = async (city: string) => {
-    if (API_KEY === "YOUR_API_KEY_HERE") {
-      toast({
-        title: "API Key Required",
-        description: "Please add your OpenWeatherMap API key in src/pages/Index.tsx",
-        variant: "destructive",
-      });
-      return;
-    }
+    // if (API_KEY === "YOUR_API_KEY_HERE") {
+    //   toast({
+    //     title: "API Key Required",
+    //     description: "Please add your OpenWeatherMap API key in src/pages/Index.tsx",
+    //     variant: "destructive",
+    //   });
+    //   return;
+    // }
 
     setIsLoading(true);
     try {
